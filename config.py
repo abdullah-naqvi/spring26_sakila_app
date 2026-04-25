@@ -2,6 +2,9 @@
 # Teammate: Abdul Raffay Qasim | Date: 2026-04-26
 
 import os
+"""
+Configuration settings for the Sakila Database connection.
+"""
 
 MYSQL_HOST = os.environ.get('MYSQL_HOST', 'sakila-db-server')
 MYSQL_USER = os.environ.get('MYSQL_USER', 'root')
